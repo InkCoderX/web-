@@ -1,0 +1,260 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+<meta charset="utf-8">
+<link type="text/css" rel="stylesheet" href="css/css.css" />
+<title>蜡笔小新</title>
+	<style>
+
+/*通用类*/
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+    min-width: 1000px;
+    margin: 0 auto;
+    font-size: 14px;
+    font-family: PingFang SC, Hiragino Sans GB, Microsoft YaHei UI, Microsoft YaHei, Source Han Sans CN, sans-serif;
+    background: #fff;
+    text-align: justify;
+    color: #010000;
+    position: relative;
+    margin-top: 1px;
+}
+h1, h2, h3 {
+	font-weight: 500;
+}
+img {
+	border: none;
+}
+a {
+    cursor: pointer;
+    color: #858383;
+    text-decoration: none;
+    outline: none;
+}
+ul {
+	list-style-type: none;
+}
+em {
+	font-style: normal;
+}
+.lt {
+	float: left;
+}
+.rt {
+	float: right;
+}
+div.clear {
+	font: 0px Arial;
+	line-height: 0;
+	height: 0;
+	overflow: hidden;
+	clear: both;
+}
+.clearfix::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+/*wrapin 主体容器宽度*/
+.wrapin {
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+/*公用CSS 开始*/
+
+/*header 开始*/
+header {
+	background: #327760;
+	line-height: 60px;
+	padding: 0 15px;
+}
+header .logo {
+	float: left;
+	font-size: 24px;
+	color: #fff;
+	font-weight: bold;
+	line-height: 60px;
+}
+header .nav {
+	float: right;
+}
+header .nav li {
+	width: 120px;
+	text-align: center;
+	font-size: 16px;
+	display: inline-block;
+}
+header .nav li a {
+	color: #fff;
+}
+.banner {
+	display: block;
+}
+.banner img {
+	display: block;
+	width: 100%;
+}
+.in_com {
+	background: #f4f8ff;
+	padding: 15px;
+	display: block;
+}
+.con_top .pic {
+	width: 300px;
+	float: left;
+}
+.con_top .pic img {
+	width: 100%;
+}
+.con_top .text {
+	float: right;
+	width: 650px;
+	line-height: 28px;
+	color: #333;
+}
+.title {
+	background:#327760;
+	line-height: 40px;
+	padding: 0 15px;
+	margin: 20px 0;
+}
+.title h2 {
+	font-size: 20px;
+	color: #fff;
+}
+.text_a {
+    line-height: 28px;
+    color: #858383;
+    font-size: 16px;
+}
+.text_a img {
+	margin-left: 15px;
+}
+footer {
+	background: #327760;
+	line-height: 60px;
+	padding: 0 15px;
+	text-align: center;
+	font-size: 14px;
+	color: #fff;
+}
+.pic_con {
+	margin: 0 -15px;
+}
+.pic_con li {
+	float: left;
+	width: 33.333%;
+	box-sizing: border-box;
+	padding: 15px;
+}
+.pic_con li img {
+	width: 100%;
+	height: 240px;
+	object-fit: cover;
+}
+.renwu_box li {
+	position: relative;
+	height: 260px;
+	padding-bottom: 15px;
+	border-bottom: 1px dashed #ccc;
+	margin-bottom: 15px;
+}
+.renwu_box li .pic {
+	width: 260px;
+	height: 260px;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.renwu_box li .pic img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.renwu_box li .text {
+	margin-left: 280px;
+	font-size: 16px;
+	line-height: 28px;
+	color: #333;
+}
+
+    </style>
+</head>
+
+<body>
+<div class="wrapin"> 
+  <!--顶部-->
+  <header class="clearfix"> <a href="index.html" class="logo"> Octopus Brother</a>
+    <ul class="nav">
+     <li><a href="Untitled-7.html">首页</a></li>
+      <li><a href="juqingjieshao.html">剧情介绍</a></li>
+      <li><a href="xiangguanrenwu.html">相关人物</a></li>
+      <li><a href="renwupingjia.html">影视评价</a></li>
+		<li><a href="renwuteji.html">人物特辑</a></li>
+		<li><a href="guanyuwomen.html">关于我们</a></li>
+    </ul>
+  </header>
+  <div class="banner"> <img src="../picture/c7ca6e6f96d97027edf7a0073db00efa.mp4.jpg" width="406" height="488"/> </div>
+  <div class="in_com">
+    <div class="con_top clearfix">
+      <p>&nbsp;</p>
+      <p style="font-size: 36px"><strong>角色形象</strong></p>
+      <p style="font-size: 36px">&nbsp;</p>
+      <p>&nbsp;</p>
+      <div class="pic"><img src="../picture/微信图片_20231228174434.jpg" width="104%" height="364"/></div>
+		
+      <p>&nbsp;</p>
+      <div class="text"> 
+        <p><span style="font-size: 16px">章鱼哥看待问题很现实，内心成熟，有自己的爱好吹竖笛(其实是单簧管)和绘画，梦想自己有一天成为艺术家。他会理智地看待问题(虽然总是被海绵宝宝 气到崩溃)想要过平静舒适的生活但总被海绵宝宝和派大星打扰)他的理智成熟在海绵宝宝面前统统失效，使得他变得愤怒，显得他更单纯。几乎是个表面看起来成熟的成年人的代表，对现实妥协，谈不上热爱生活，但愿意受生活（如里海棉宝宝不来打扰的话) 仍然保留自己的一点梦想（比如成为艺术家）。<br>
+          外表冷酷，内心善良，有时候真心的同情海绵宝宝的遭遇，也有时是为了自己的利益这些都普通的不能再普通的一个大龄单身青年形象，但如果把他这样的形象和海绵宝宝这个怪胎放在起，故事才更精彩。虽然章鱼哥表面看上去不喜欢海绵宝宝，其实却总是在海绵宝宝危难的时候身而出，并多次伸出援手是个讲义气并正义的形象<br>
+          蟹老板在《上电视》那集中说章鱼哥是艺术家，而目章鱼哥还是有一定艺术天分的，在乐队指挥上有一定的能力。但是他的集中力似乎不够，很容易受到外界影响。在制作交响乐谱时把听到的全部写进去了</span>。<br>
+          <br>
+        </p>
+      </div>
+    </div>
+    <div class="text_a clearfix">
+      <p>&nbsp;</p>
+      <p style="font-size: 36px; color: #000000;"><strong>角色经历</strong></p>
+      <p style="font-size: 36px; color: #000000;">&nbsp;</p>
+      <p style="font-size: 36px; color: #000000;">&nbsp;</p>
+      <p style="font-size: 36px; color: #000000;"><span style="font-size: 18px; color: #000000;"><img src="../picture/微信图片_202312281744355.jpg"  alt="" width="298" height="339" align="right"/></span></p>
+      <blockquote>
+        <p style="font-size: 18px; color: #000000;">         章鱼哥有六只触手，其中两只作手用，另外四只经常会两只两只同步用来作双脚走动。曾有过黄色的长卷发，非常希望再有一次头发，是海绵宝宝的邻居兼同事。拥有美好的幻想并期望静的生活但总是被海绵宝宝破坏，是本作的经典可怜人物。他拥有自己的理想，但是被埋葬在地里，他会定时去墓地祭奠。</p>
+        <p style="font-size: 18px; color: #000000;"><br>
+          不想看见海绵宝宝，海绵宝宝的存在让他感到厌烦。虽然表面讨厌海绵宝宝，从心里面依名拿海绵宝宝当做自己的朋友。非常自恋，会编写乐谱，有一定绘画水平对艺术有执着的追求(但》未得到赏识)，喜欢吹单簧管，前期吹奏水平很烂但有时也可以超常发挥，在动画中后期，演奏平大大提升，开过单簧管演唱会，曾强练肌肉，成为摇滚乐手，与海绵宝宝和派大星一起加入老板的乐队，吉他水平相当不错。</p>
+        <p style="font-size: 18px; color: #000000;"><br>
+          对海绵宝宝，他最喜欢的事情就是大叫或者大笑。他笑起来的时候，鼻子会很滑稽地抽动但是很反感别人叫他大鼻子，并曾因此与企鹅男孩发生冲突</p>
+      </blockquote>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p style="font-size: 24px">&nbsp;</p>
+    </div>
+    <p>&nbsp;</p>
+    <p style="font-size: 24px">海绵宝宝主题曲欣赏    </p>
+    <p style="font-size: 18px; color: #009900;">SpongeBob Closing Theme</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <audio src="../picture/京九路 2.m4a" controls></audio>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+  </div>
+  <footer>
+    <p>比奇堡章鱼哥 版权所有    </p>
+    <p> copynight &copy; 2023 Phoenix New Media Limited All Right Reserved    </p>
+    <p>Octoputs Brother</p>
+  </footer>
+</div>
+</body>
+</html>
+

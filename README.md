@@ -38,7 +38,8 @@
 ## 🛠️ **使用指南**
 1. 克隆本项目到本地：
    ```bash
-   git clone https://github.com/InkCoderX/Web前端开发.git
+   git clone https://github.com/InkCoderX/web-.git
+   
    ```
 2. 根据需求选择对应的技术目录，运行案例。
 3. 使用浏览器或开发环境调试、查看效果。
